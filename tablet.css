@@ -1,0 +1,105 @@
+@media (min-width: 768px) {
+  .overlay {
+    opacity: 1;
+    background-image: url("./assets/tablet/image-host.jpg");
+    background-size: 437px;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  header {
+    position: absolute;
+    margin: 50px auto 152px 39px;
+  }
+
+  section {
+    position: absolute;
+    top: 258px;
+    left: 39px;
+    width: 635px;
+    height: 509px;
+    background: #121725;
+    overflow: hidden;
+  }
+
+  h1 {
+    width: 635px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: start;
+    margin: 93px auto 31px auto;
+  }
+
+  p {
+    width: 445px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+    margin: 0 0 40px 0;
+  }
+
+  .request-container {
+    position: relative;
+    align-items: flex-start;
+  }
+
+  #email-input {
+    width: 427px;
+    height: 56px;
+    padding-left: 32px;
+    /* margin-bottom: 64px; */
+  }
+
+  #request-btn {
+    position: absolute;
+    width: 162px;
+    height: 46px;
+    top: 5px;
+    right: 215px;
+  }
+
+  .logos {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 536px;
+    height: 29px;
+  }
+
+  .spotify {
+    width: 96px;
+    height: 29px;
+  }
+
+  .apple {
+    width: 78px;
+    height: 29px;
+  }
+
+  .google {
+    width: 125px;
+    height: 18px;
+  }
+
+  .pocket {
+    width: 129px;
+    height: 26px;
+  }
+
+  .dots {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+  }
+
+  .submition-success,
+  .submition-fail,
+  .blank-submition {
+    display: none;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: start;
+    margin-left: 32px;
+  }
+}

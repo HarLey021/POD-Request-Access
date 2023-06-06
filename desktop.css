@@ -1,0 +1,41 @@
+@media (min-width: 1440px) {
+  .overlay {
+    background-image: url("./assets/desktop/image-host.jpg");
+    background-size: 886px;
+    overflow: scroll;
+    background-position: right;
+  }
+
+  header {
+    margin: 102px auto auto 165px;
+  }
+
+  section {
+    top: 261px;
+    left: 165px;
+    width: 723px;
+    height: 509px;
+  }
+
+  h1 {
+    width: 665px;
+    font-size: 52px;
+    line-height: 62px;
+    margin: 88px auto 24px 0;
+  }
+
+  #request-btn {
+    right: 300px;
+  }
+
+  .dots {
+    bottom: 78px;
+    right: 20px;
+    left: auto;
+  }
+
+  #request-btn:hover {
+    cursor: pointer;
+    background: #b3ffe2;
+  }
+}
